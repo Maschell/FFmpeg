@@ -99,7 +99,7 @@ uninstall-pkgconfig::
 	$(RM) "$(PKGCONFIGDIR)/lib$(FULLNAME).pc"
 endef
 
-$(eval $(RULES))
+#$(eval $(RULES))
 
 $(TOOLS):     $(DEP_LIBS) $(SUBDIR)$($(CONFIG_SHARED:yes=S)LIBNAME)
 $(TESTPROGS): $(DEP_LIBS) $(SUBDIR)$(LIBNAME)

@@ -1,7 +1,7 @@
 # FFmpeg for Wii U, based on version 4.0
 
 This branch is used to compile FFmpeg for the Wii U, make sure to init the submodules.  
-Modify the `wiiu.sh` to specify the codecs etc.  
+Modify the `wiiu.sh` to specify the codecs etc., then simply run the `wiiu.sh` script.
 You need your devkitPPC binaries ('devkitPro\devkitPPC\bin') in your 'PATH' variable.  
 The compiled libraries will be saved in `./wiiu`, copy the result to `devkitPro\portlibs\ppc` manually.
 

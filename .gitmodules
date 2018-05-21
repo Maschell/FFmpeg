@@ -1,0 +1,4 @@
+[submodule "external/x264"]
+	path = external/x264
+	url = https://github.com/Maschell/x264.git
+	branch = wiiu

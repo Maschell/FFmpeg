@@ -78,12 +78,6 @@ PARSERS="\
 
 function build_WUP
 {
-
-echo "building libx264"
-cd external/x264
-sh wiiu.sh
-cd ../../
-echo "building libx264 done"
 echo "Setting up ffmpeg"
 ./configure --target-os=linux \
     --prefix=./wiiu \

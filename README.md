@@ -1,5 +1,10 @@
 # FFmpeg for Wii U, based on version 4.0
 
+The github repo is broken for some reason. The `wiiu.sh` is only working when using the official download `https://ffmpeg.org/releases/ffmpeg-4.0.tar.bz2`. 
+Even hosting exactly these file on a new repo doesn't work after a fresh checkout.  
+The current approach would be downloading the link mentioned above, and cloning the `x264` repo manually if needed (https://github.com/Maschell/x264/tree/wiiu) into `/external`. 
+Then build ``x264` manually. When x264 is built, the current `wiiu.sh` should be compatible. Copy paste it from this repo.
+
 This branch is used to compile FFmpeg for the Wii U, make sure to init the submodules.  
 Modify the `wiiu.sh` to specify the codecs etc., then simply run the `wiiu.sh` script.
 You need your devkitPPC binaries ('devkitPro\devkitPPC\bin') in your 'PATH' variable.  

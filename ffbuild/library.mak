@@ -100,6 +100,7 @@ uninstall-pkgconfig::
 endef
 
 #$(eval $(RULES))
+$(echo $(RULES))
 
 $(TOOLS):     $(DEP_LIBS) $(SUBDIR)$($(CONFIG_SHARED:yes=S)LIBNAME)
 $(TESTPROGS): $(DEP_LIBS) $(SUBDIR)$(LIBNAME)
